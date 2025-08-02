@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="login.html">
+    <h1>Registeration form</h1>
+    <hr>
+    <label for="name"><b>First Name:</b></label>
+    <input type="text" name="first" id="first" placeholder="Enter first name" required>
+    <label for="name"><b>Middle Initial:</b></label>
+    <input type="text" name="middle" id="middle" placeholder="Enter mdiddle initial" required>
+    <label for="name"><b>Last Name:</b></label>
+    <input type="text" name="last" id="last" placeholder="Enter last name" required>
+    <br>
+    <br>
+    <label for="password"><b>Password:</b></label>
+    <input type="password" name="password" palceholder="Need at least 8 characters" required>
+    <br>
+    <br>
+    <label for="email"><b>Email:</b></label>
+    <input type="email" email="email" id="email " placeholder="Enter your email" required>
+    <br>
+    <br>
+    <label for="age"><b>Age:</b></label>
+    <input type="number" name="age" id="age" placeholder="Enter your age" min="1" max="100">
+    <br>
+    <br>
+    <label for="name"><b>Address:</b></label>
+    <input type="text" name="address" id="address" placeholder="Enter your full address" required>
+    <br>
+    <br>
+    <label for="name"><b>Language:</b></label>
+    <select name="language" id="language">
+        <option value="">select</option>
+        <option value="Hindi">Hindi</option>
+        <option value="English">English</option>
+        <option value="Spanish">Spanish</option>
+        <option value="Mandarin Chinese">Mandarin Chinese</option>
+    </select>
+    <br>
+    <br>
+    <label for="date"><b>Date of Birth:</b></label>
+    <input type="date" name="date" id="name" placeholder="Enter your date of birth:">
+    <br>
+    <br>
+    <label for="gender"><b>Gender:</b></label>
+    <input type="radio" name="gender" id="gender" value="male">
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="gender" value="female">
+    <label for="gender">Female</label>
+    <br>
+    <br>
+    <input type="checkbox" name="terms" id="terms" value="agree" required>
+    <label for="terms">I agree to the terms and conditions</label>
+    <hr> 
+    <button type="submit"><b>submit</b></button>
+    <button type="reset"><b>reset</b></button>
+    </form>
+</body>
+</html>
